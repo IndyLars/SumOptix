@@ -1,54 +1,170 @@
 body {
     margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #333333;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    color: #333333;
+    background-color: #66cc33;
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #161d2d;
-    padding: 1rem;
+    background-color: #000000;
+    padding: 20px 0;
 }
 
-nav {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.877), #333333);
+.logo img {
+    display: block;
+    margin: 0 auto;
 }
 
-nav>a button {
-    display: inline-block;
-    font-weight: 800;
-    border: 1px solid #66cc33;
-    background-color: #66cc33;
-    color: #333333;
-    cursor: pointer;
-    transition: all 0.4s ease;
-    padding: 15px 25px;
-    border-radius: 35px;
-}
-
-nav>a button:hover {
-    color: #000000;
-    border-color: #333333;
-    background-color: #66cc33;
-}
-
-.logo {
-    margin-left: 20px;
-    height: 50px;
-}
-
-ul {
+.navlinks {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
-    display: inline-block;
+    text-align: center;
 }
 
-li {
+.navlinks li {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
-li:last-child {
-    margin-right: 0;
+.navlinks li a {
+    color: #ffffff;
+    text-decoration: none;
 }
+
+.cta button {
+    background-color: #161d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #000000;
+}
+
+.main {
+    background-image: url('Images/Sumoptix_Home_BACKGROUND.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+body {
+    margin: 0;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    color: #333333;
+    background-color: #66cc33;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.navlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navlinks li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cta button {
+    background-color: #161d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #000000;
+}
+
+.main {
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-section {
+    background-color: #333333;
+    padding: 50px 20px;
+}
+
+.contact-section h1 {
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #161d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
